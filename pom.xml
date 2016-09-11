@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.qyl</groupId>
-	<artifactId>spring_qq_zipkin_demo</artifactId>
+	<groupId>com.bincai.cloud.zipkin.server</groupId>
+	<artifactId>love-life-zipkin</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>spring_qq_zipkin_demo</name>
-	<description>spring_qq_zipkin_demo</description>
+	<name>love-life-zipkin</name>
+	<description>love-life-zipkin</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -41,25 +41,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-stream-rabbit</artifactId>
 		</dependency>
-		<!-- <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
-		</dependency> -->
 		<dependency>
 			<groupId>io.zipkin.java</groupId>
 			<artifactId>zipkin-server</artifactId>
 		</dependency>
 
-		<!-- <dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
-		</dependency> -->
 		<dependency>
 			<groupId>io.zipkin.java</groupId>
 			<artifactId>zipkin-autoconfigure-ui</artifactId>
