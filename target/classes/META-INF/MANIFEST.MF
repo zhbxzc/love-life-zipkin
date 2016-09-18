@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: love-life-zipkin
+Implementation-Version: 0.0.1
+Implementation-Vendor-Id: com.bincai.cloud.zipkin.server
+Build-Jdk: 1.7.0_75
+Built-By: zhanghb22
+Created-By: Maven Integration for Eclipse
+
